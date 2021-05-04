@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="22.491">
+    <testcase classname="Search a word in Google" name="Search a word in Google" time="5.941">
+        <system-out><![CDATA[Given On the Google Search Page.............................................passed
+When Type "Ducks" and click on the Search...................................passed
+Then Check for the Search Results...........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Search a word in Google" name="Verify the Search link" time="5.353">
+        <system-out><![CDATA[Given On the Google Search Page.............................................passed
+When Type "Ducks" and click on the Search...................................passed
+Then Check for the Search Results...........................................passed
+Then Verify the duck search link............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Search a word in Google" name="Check for a different search word" time="6.221">
+        <system-out><![CDATA[Given On the Google Search Page.............................................passed
+When Type "Eagle" and click on the Search...................................passed
+Then Verify the Other Search Results........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Search a word in Google" name="Check for a different search word 2" time="4.682">
+        <system-out><![CDATA[Given On the Google Search Page.............................................passed
+When Type "#$%&" special characters and click on the Search.................passed
+Then Verify the Other Search Results........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
